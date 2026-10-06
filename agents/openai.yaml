@@ -1,4 +1,4 @@
 interface:
-  display_name: "Auto Paper 自动科研成稿"
+  display_name: "Auto Paper"
   short_description: "以北大核心期刊投稿要求为目标，自动成稿、审查并交付论文与证据"
   default_prompt: "请用 $auto-paper，根据选题按北大核心期刊投稿要求自动生成完整稿件，核验适配期刊并审查创新、证据和方法。缺省采用自动推断学科、中文正文8000字，全程无需中途确认；自动检索真实中英文文献，交付 Word、Markdown 和证据附件。"
