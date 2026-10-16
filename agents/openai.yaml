@@ -1,4 +1,4 @@
 interface:
-  display_name: "Auto Paper 连续科研成稿"
-  short_description: "按主题连续推进科研成稿，共用研究基础规范，交付论文与证据附件"
-  default_prompt: "使用 $auto-paper，选题：【填写主题】，按连续执行模式完成真实检索、证据整理、论文写作与审查，交付完整论文及材料，缺少不可替代条件时如实说明。"
+  display_name: "Auto Paper 兼容入口"
+  short_description: "已合并到Vibe Research，旧名称默认进入自动成稿模式并保留原项目"
+  default_prompt: "使用 $auto-paper，通过同级 Vibe Research 的自动成稿模式推进选题：【填写主题】，保留已有项目版本。"
