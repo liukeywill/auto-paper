@@ -30,6 +30,7 @@ STRUCTURED_TREES = {
     "analysis-code": {".py", ".r", ".ipynb", ".json", ".csv", ".tsv", ".md", ".txt", ".yaml", ".yml"},
     "data/frozen": {".csv", ".tsv", ".json", ".txt"},
     "runtime-snapshot": {".py", ".json", ".txt"},
+    "runtime-snapshot/shared/research-core/references": {".md"},
 }
 SENSITIVE_NAME = re.compile(r"(^|[-_.])(auth|secrets?|credentials?|passwords?|private[-_]?key|contributor[-_]?info)([-_.]|$)", re.I)
 SECRET_PATTERNS = (
